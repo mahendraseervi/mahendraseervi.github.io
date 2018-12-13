@@ -38,6 +38,29 @@ img {
   margin-right: auto;
 }
 </style>
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 <!-- ............................................................................................... -->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,6 +139,8 @@ img {vertical-align: middle;}
 </head>
 
 
+
+
 <body>
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
@@ -167,14 +192,14 @@ img {vertical-align: middle;}
               <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <!-- <img src="img_snow_wide.jpg" style="width:100%"> -->
-                <img src="img/project/scara-robot.JPG" class="img-fluid" alt="">
+                <img src="img/project/humanoid-robot.jpg" class="img-fluid" alt="">
                 <div class="text">Caption Two</div>
               </div>
 
               <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <!-- <img src="img_mountains_wide.jpg" style="width:100%"> -->
-                <img src="img/project/single-axis.JPG" class="img-fluid" alt="">
+                <img src="img/project/humanoid-robot.jpg" class="img-fluid" alt="">
                 <div class="text">Caption Three</div>
               </div>
 
@@ -188,35 +213,25 @@ img {vertical-align: middle;}
               </div>
             </div>
 
-
-            <!-- <div class="post-meta">
-              <h1 class="article-title">Wheel Based Humanoid Robot</h1>
-              <ul>
-                <li>
-                  <span class="ion-ios-person"></span>
-                  <a href="#">Jason London</a>
-                </li>
-                <li>
-                  <span class="ion-pricetag"></span>
-                  <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <span class="ion-chatbox"></span>
-                  <a href="#">14</a>
-                </li>
-              </ul>
-            </div> -->
-
-
             <div class="article-content">
-              <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                porta. Quisque velit
-                nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque
-                nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Nulla quis lorem ut libero malesuada feugiat.
-              </p>
+              <h3>Wheel based Humanoid robot</h3>
+              <p><br></p>
+              <p>• Design and development of Humanoid torso with arms and head, which will be placed
+                   on the wheeled base chassis and could do the following tasks:<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o Autonomous navigation (uses Intel realsense camera and differential drive basechassis)<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o Hand gestures like : Waving hands, Hold a tray, shake hand and many<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o speech and voice recognition<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o and a screen touch display to interact with robot<br>
+                  • Complete robot was build on Robot Operating System(ROS)<br>
+                  • ROS packages link (MoveIt, Navigation stack, Dynamixel SDK Etc) were used to build the system<br>
+                  • Dynamixel motors and faulhaber motors were used to motion the links<br>
+                  • Team of 14 members</p>
+                  <p><br></p>
+                  <p> For the Autonomous navigation video : <a href="#" target="_blank">youtube video</a></p>
+                  <p><br></p>
+                  <p> For the Autonomous navigation code : <a href="https://github.com/mahendraseervi/Humanoid-robot-Autonomous-navigation-ros" target="_blank">github page</a></p>
+                  <p><br></p>
+                  <p> For the Chassis CAD model : <a href="https://grabcad.com/library/differential-drive-chassis-1" target="_blank">Grabcad page </a></p>
 
             </div>
           </div>
