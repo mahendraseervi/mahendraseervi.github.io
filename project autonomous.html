@@ -126,6 +126,22 @@ img {vertical-align: middle;}
   animation-duration: 3s;
 }
 
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -238,6 +254,15 @@ img {vertical-align: middle;}
                   <!-- <p> For the working video : <a href="#" target="_blank">youtube video</a></p> -->
                   <p><br></p>
                   <p> For the codes : <a href="https://github.com/mahendraseervi/Autonomous-robot-using-supervisedlearning" target="_blank">github page</a></p>
+
+                  <p><br></p>
+                  <b>Video : </b>
+                  <p><br></p>
+
+                  <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sy8pkOS-0C4"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
 
             </div>
           </div>
