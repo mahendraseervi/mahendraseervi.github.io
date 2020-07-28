@@ -126,6 +126,20 @@ img {vertical-align: middle;}
   animation-duration: 3s;
 }
 
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -151,7 +165,7 @@ img {vertical-align: middle;}
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Projects</a>
+      <a class="navbar-brand js-scroll" href="#page-top">Products</a>
         <span></span>
         <span></span>
         <span></span>
@@ -235,7 +249,7 @@ img {vertical-align: middle;}
                 <p><br></p>
 
                 <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HVudxg9-4vA"
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/HVudxg9-4vA"
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
@@ -306,7 +320,7 @@ img {vertical-align: middle;}
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2500); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
   </script>
 
