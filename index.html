@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
 
-<style>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
+  <style>
+  .button_a {
+    background-color: #e3e3e3; /* Green */
+    border-radius: 15px;
+    border: 3px solid #555555
+    /* border: none; */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  </style>
 
   <meta charset="utf-8">
   <title>Mahendra - Personal website</title>
@@ -48,6 +52,8 @@ a:active {
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Added style sheet -->
+  <link href="css/added-style.css" rel="stylesheet">
   <!-- =======================================================
     Theme Name: DevFolio
     Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -165,15 +171,15 @@ a:active {
 
                          <p><br></p>
 
-                      <form>
+                      <!-- <form>
                            <input style="width: 200px; padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999;
                               -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: small; background: #DCDCDC;
                               color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value="Check my CV"
                               onclick="window.location.href='cv/index1.html'" />
-                      </form>
-                         <!-- <a href="cv/index1.html"> <h4> <strong>Check My CV</strong></h4></a> -->
-                         <!-- <h2 href="cv/index1.html"> Check My CV </h2> -->
-                        <!--  <a href="cv/index1.html"> <h4> <strong>Check My CV</strong></h4></a> -->
+                      </form> -->
+
+                      <button class="button_a button2">Check my CV</button>
+
                        </div>
                   </p>
                 </div>
